@@ -1,0 +1,34 @@
+.card-container {
+  min-width: 200px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 0, 0, 0.5); /* rojo semi-transparente */
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(8);
+  transition: transform 0.25s ease-out;
+  margin: 0 10px;
+  
+}
+p {
+  color: rgb(0, 11, 0); /* Cambia el color a tu preferencia */
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+  
+  .card-container:hover {
+    transform: scale(1.20);
+  }
+  .card-container img {
+    /* Establece un ancho máximo para la imagen dentro del contenedor de la tarjeta */
+    max-width: 100%;
+    /* Establece una altura automática para que la imagen se ajuste proporcionalmente al ancho máximo */
+    height: auto;
+    /* Otros estilos según sea necesario para la imagen */
+  }
+  

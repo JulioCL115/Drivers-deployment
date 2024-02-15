@@ -1,0 +1,22 @@
+/* navbar.style.css */
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+
+form {
+  display: flex;
+  align-items: flex-start;
+}
+
+input {
+  margin-right: 10px; /* Puedes ajustar el margen según tus necesidades */
+  padding: 10px; /* Ajusta el relleno para hacer el cuadro de búsqueda más grande */
+  font-size: 16px; /* Ajusta el tamaño de la fuente según tus preferencias */
+  border: 1px solid #ccc; /* Añade un borde para mejorar la apariencia */
+  border-radius: 5px; /* Añade bordes redondeados */
+  width: 300px; /* Ajusta el ancho del cuadro de búsqueda según tus necesidades */
+}
+
