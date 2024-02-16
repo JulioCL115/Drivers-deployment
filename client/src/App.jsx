@@ -6,6 +6,8 @@ import Create from './views/create/create.component';
 import Navigation from "./components/navegacion/navegacion.component";
 import Teams from "./views/Teams/Teams.component";
 import Landing from "./views/landing/landing.component.jsx";
+import axios from "axios";
+axios.defaults.baseURL = 'http://localhost:3001/';
 //sis
 function App() {
   return (
