@@ -1,7 +1,7 @@
 const axios = require("axios");
 const server = require("./src/server");
 const { conn } = require('./src/db.js');
-const PORT = 3001;
+const PORT = process.env.PORT;
 const {fillUp} = require("./src/handlers/startUpHandler")
 const {fillUp2} = require("./src/handlers/startUpHandlerTeams")
 conn.sync({ force: true }).then(() => {
