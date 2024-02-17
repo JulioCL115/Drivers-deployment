@@ -7,8 +7,9 @@ import Navigation from "./components/navegacion/navegacion.component";
 import Teams from "./views/Teams/Teams.component";
 import Landing from "./views/landing/landing.component.jsx";
 import axios from "axios";
+console.log('URL base de Axios:', axios.defaults.baseURL);
 axios.defaults.baseURL = 'https://drivers-deployment-production.up.railway.app';
-
+console.log('URL base de Axios:', axios.defaults.baseURL);
 //sis
 function App() {
   return (
